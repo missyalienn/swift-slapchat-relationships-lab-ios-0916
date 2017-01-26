@@ -14,6 +14,7 @@ class TableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        store.generateTestData()
         store.fetchData()
     }
     
